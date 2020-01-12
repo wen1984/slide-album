@@ -1,0 +1,48 @@
+body {
+    background-color: #22bbcc;
+}
+
+.clearfix {
+    overflow: auto;
+    margin: 0 auto;
+    width: 20%;
+    border: 2px solid #73ad21;
+    padding: 10px 40px 10px 20px;
+}
+
+img {
+    width: 300px;
+    height: 100px;
+}
+
+div {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+div > p {
+    overflow: hidde;
+    font-size: 15px;
+    color: #bbffff;
+    line-height: 20px;
+}
+
+.slides {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
